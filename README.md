@@ -11,12 +11,13 @@ This project uses Transfer Learning with DenseNet121 to detect pneumonia from ch
 ## Results
 Validation Accuracy: **96%**
 
+## Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
 ## Run
 
 ```bash
 pip install -r requirements.txt
 python src/train.py
 
-## Confusion Matrix
 
-![Confusion Matrix](outputs/confusion_matrix.png)
