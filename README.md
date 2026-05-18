@@ -16,3 +16,7 @@ Validation Accuracy: **96%**
 ```bash
 pip install -r requirements.txt
 python src/train.py
+
+## Confusion Matrix
+
+![Confusion Matrix](outputs/confusion_matrix.png)
